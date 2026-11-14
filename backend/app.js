@@ -43,10 +43,10 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // CORS configuration
 const allowedOrigins = [
-  process.env.FRONTEND_URL || 'http://localhost:5173',
+  'http://localhost:5173',
   'http://localhost:5173',
   'http://localhost:3000',
-  'https://amberkclothing.com',
+  'https://amberk-clothing.vercel.app',
 ];
 
 app.use(
